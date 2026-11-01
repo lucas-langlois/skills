@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manuscript citation audit"
+  short_description: "Retrieve papers and check manuscript citation support"
+  default_prompt: "Use $manuscript-citation-audit to retrieve the original cited publications and audit each cited claim in this manuscript, saving source evidence and proposed corrections without editing the manuscript."
