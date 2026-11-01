@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientist Led Writing"
+  short_description: "Scientific reports and manuscripts with author review"
+  default_prompt: "Use $scientist-led-writing to audit and improve this scientific report while preserving my voice, evidence, live references, and review control."
