@@ -31,49 +31,14 @@ https://github.com/lucas-langlois/skills/tree/main/skills/scientist-led-writing
 
 ## Install in Claude Code
 
-Claude Code loads personal skills from `~/.claude/skills/`, or project skills from `.claude/skills/` inside a project. Copy each complete skill folder, including its supporting files. See the [official Claude Code skills documentation](https://code.claude.com/docs/en/skills#choose-where-skills-load).
-
-Clone this repository into a new local directory, then install either or both folders. The following examples install both as personal skills and stop if an installation already exists. Compare or back up an existing copy before updating it.
-
-**macOS / Linux / WSL (Bash)**
-
-```bash
-git clone https://github.com/lucas-langlois/skills.git lucas-skills || exit 1
-mkdir -p "$HOME/.claude/skills"
-for skill in manuscript-citation-audit scientist-led-writing; do
-  if [ -e "$HOME/.claude/skills/$skill" ]; then
-    printf 'Already installed; compare before replacing: %s\n' "$skill"
-    exit 1
-  fi
-done
-for skill in manuscript-citation-audit scientist-led-writing; do
-  cp -R "lucas-skills/skills/$skill" "$HOME/.claude/skills/"
-done
-```
-
-**Windows (PowerShell)**
-
-```powershell
-git clone https://github.com/lucas-langlois/skills.git lucas-skills
-if ($LASTEXITCODE -ne 0) { throw 'Clone failed' }
-$skillsDestination = Join-Path $HOME '.claude/skills'
-$skillNames = @('manuscript-citation-audit', 'scientist-led-writing')
-foreach ($skillName in $skillNames) {
-    if (Test-Path -LiteralPath (Join-Path $skillsDestination $skillName)) {
-        throw "Already installed; compare before replacing: $skillName"
-    }
-}
-[IO.Directory]::CreateDirectory($skillsDestination) | Out-Null
-foreach ($skillName in $skillNames) {
-    Copy-Item -LiteralPath "lucas-skills/skills/$skillName" -Destination $skillsDestination -Recurse
-}
-```
-
-For a project-only installation, use `.claude/skills/` in that project instead of the personal directory. Start Claude Code in the target project and invoke either skill:
+Ask Opus or Sonnet in Claude Code:
 
 ```text
-/scientist-led-writing Audit this report using my supplied template; preserve the original.
-/manuscript-citation-audit Check every cited claim against the original publications.
+Install manuscript-citation-audit and scientist-led-writing from
+https://github.com/lucas-langlois/skills as personal Claude Code skills.
+Copy each complete folder from skills/ into ~/.claude/skills/, including
+its supporting files. Compare any existing installation before replacing
+it, preserve local changes, and verify that both skills are available.
 ```
 
 ## Use the citation audit
