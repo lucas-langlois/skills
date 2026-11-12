@@ -32,6 +32,17 @@ Categories: formatting; meaning-preserving wording; scientific decision; evidenc
 
 Group mechanical edits rather than creating hundreds of trivial comments. Foreground at most three important unresolved questions and keep the full register available. Hiding markup does not accept changes. Do not accept human revisions, or call a plain diff native Word Track Changes.
 
+## Reviewing a document with pending tracked changes
+
+Pending revisions sit on top of the original text, so there is no single "latest version" to review. Before reviewing, inventory the revisions with their author, date, and inserted or deleted text. Then:
+
+1. **State the reviewed view.** By default, review the text as if every pending change were accepted (Word's No Markup view), because that is the document the co-authors currently propose. If the scientist asks, review the original text and assess each co-author's revision as a separate proposal. Name the view in the review package.
+2. **Attribute findings in tracked text.** When a finding falls inside or next to a pending insertion or deletion, say so in the register entry and name the revision's author. The scientist can then see whether the finding concerns their wording or a co-author's suggestion.
+3. **Check what deletions remove.** If a pending deletion removes a value, unit, qualification, limitation, negative result or citation, record it as a scientific decision. Do not review the shortened text as though the deletion were settled.
+4. **Leave the revisions pending.** Reviewing the accepted view does not accept anything. Do not edit inside another author's pending revision; add an anchored comment there instead.
+
+Get the readable text from a revision-aware extraction (for example, pandoc with `--track-changes=all`, or direct reading of `w:ins`/`w:del` with `w:author`). Plain-text extraction often accepts or drops revisions silently. The bundled audit only counts revisions and cannot supply this text.
+
 ## Verification statuses
 
 - **Checked:** name the evidence and scope.

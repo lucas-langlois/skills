@@ -48,6 +48,8 @@ Keep the original untouched and work in a clearly named copy. Preserve existing 
 python "<skill-root>/scripts/audit_docx.py" "<project>/original.docx" --json "<project>/audit-before.json"
 ```
 
+If the document has pending tracked changes, follow [the tracked-changes review rules](references/editorial-review.md#reviewing-a-document-with-pending-tracked-changes): by default, review the all-accepted view, state that view, attribute findings that fall in tracked text, and treat substantive deletions as scientific decisions.
+
 Record the template identity, document hash, available Word/EndNote tools, revision state and baseline defects. The audit is a limited structural screen: it neither renders Word nor validates scientific claims or live EndNote operation.
 
 Use native Word editing where available. Otherwise make minimal edits outside field ranges through a tested OOXML/document workflow. Never overwrite whole field-bearing paragraphs or table cells, flatten references, or round-trip a live EndNote master through plain text. If safe editing is unavailable, provide anchored suggestions and complete unaffected work.
