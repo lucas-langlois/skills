@@ -1,6 +1,6 @@
 ---
 name: scientist-led-writing
-description: Improve scientific reports and journal manuscripts with scientist-led interpretation, section and paragraph review, restrained proofreading, formatting to any supplied report or journal template, automatic Word numbering and cross-references, EndNote field preservation, and reviewable changes. Use for drafting, revision, captions, references, or submission checks; an optional NESP profile is included.
+description: Improve scientific reports and journal manuscripts with scientist-led interpretation, section and paragraph review, restrained proofreading, template formatting, automatic Word numbering and cross-references, EndNote field preservation, and reviewable changes. Use for NESP Marine and Coastal Hub reports, manuscript drafts, captions, references, or submission checks, especially with the supplied 2026 NESP Word template.
 ---
 
 # Scientist Led Writing
@@ -20,21 +20,22 @@ Do the useful authorised work immediately. Ask only the few questions that mater
 
 ## Load the right guidance
 
-1. Read the actual supplied report or journal template and current target-venue instructions. Any template can be used; NESP is not required. Only for NESP work, read [the optional 2026 profile](references/nesp-2026.md) and use the scientist's current authorised template. The institutional template is not distributed with this public skill. That profile describes one inspected 2026 template; check any newer or project-specific replacement rather than assuming it is identical. Published reports are examples, not rules. A missing template need not block evidence review or proofreading that does not depend on layout; use the target-venue instructions or existing document structure where appropriate.
+1. Read the actual supplied template or current target-journal instructions. For NESP, read [the 2026 profile](references/nesp-2026.md) and use the [bundled 2026 Word template](assets/MaC_Hub_Final_technical_report_template_2026.docx) unless the scientist supplies a newer or project-specific replacement. The supplied 2026 template supersedes the public 2022 template. Published reports are examples, not rules.
 2. Read [section and paragraph guidance](references/sections-and-flow.md) for drafting or structural revision.
 3. Read [Word and EndNote handling](references/word-endnote.md) before editing a DOCX or its citations. Use the host's document and PDF skills when available.
 4. Read [editorial review](references/editorial-review.md) for prose changes, figure checks and the review package.
-5. Consult [sources and provenance](references/sources.md) for upstream ideas and primary documentation. No upstream skill, paid service, network installation, or citation converter is a required runtime dependency.
+5. Read [the author voice profile](references/author-voice.md) before drafting or revising prose for Lucas Langlois so cadence, sentence variation, and structure match his published writing.
+6. Consult [sources and provenance](references/sources.md) for upstream ideas and primary documentation. No upstream skill, paid service, network installation, or citation converter is a required runtime dependency.
 
 Use the exact template for layout and identity; use the author and evidence for content. Record conflicting template instructions instead of silently normalising them.
 
-Resolve bundled paths relative to this `SKILL.md`, not the manuscript's working directory. Work from a project copy of the supplied Word template; keep its original unchanged. The optional audit needs Python 3 and its standard library only. On Windows, use the available Python launcher (`python` or `py -3`); quote paths containing spaces. The skill does not install or provide Word, EndNote or a document-rendering engine. Use available host tools and clearly state which native checks remain.
+Resolve bundled paths relative to this `SKILL.md`, not the manuscript's working directory. Copy the bundled Word template into the project before editing; never edit the installed template asset. The optional audit needs Python 3 and its standard library only. On Windows, use the available Python launcher (`python` or `py -3`); quote paths containing spaces. The skill does not install or provide Word, EndNote or a document-rendering engine. Use available host tools and clearly state which native checks remain.
 
 ## 1. Establish the author's contribution
 
 Inspect the draft and materials before asking questions. Pre-fill [the author brief](assets/author-brief.md); ask at most three high-value questions in the first round. Accept rough bullets, dictated notes and incomplete sentences.
 
-Prioritise the main message in the scientist's own words, the interpretation and limitation they consider most important, and the intended audience or decision. Request a representative paragraph for voice only if the draft does not provide one. Obtain exact methods, figures, tables and relevant reference records when needed.
+Prioritise the main message in the scientist's own words, the interpretation and limitation they consider most important, and the intended audience or decision. Anchor prose to the scientist's own voice: when revising a human draft, leave clear working sentences untouched rather than rewriting the whole text into uniform polish; when drafting from notes or bullets, use a short sample of the scientist's own writing if available so the draft matches their cadence and register. Obtain exact methods, figures, tables and relevant reference records when needed.
 
 Distinguish supplied observations, analysis outputs, published evidence, author interpretations and agent suggestions. Do not reuse results from prior conversations as current manuscript evidence without confirming the source and scope.
 
@@ -60,13 +61,13 @@ Create a reverse outline: section purpose, each paragraph's job, evidence used, 
 
 For a new document, create a section plan and populate supported material. Hold unsupported scientific assertions as clearly identified author queries. Use an internal working draft with placeholders when useful; do not describe it as ready for submission.
 
-Write paragraphs around a clear point, evidence or detail, and explanation of its relevance. Vary that pattern naturally. Use transitions only when the logical relationship is supported. Never invent a mechanism, certainty or causal bridge to make prose flow.
+Each paragraph should have a clear job, but do not force every paragraph into an identical 3–5 sentence `point → detail → wrap-up/disclaimer` template. Vary paragraph length, sentence length and clause structure naturally, and let a paragraph end on a concrete detail or result without a summary or defensive sign-off. State each methodological caveat once in the section where it belongs rather than repeating it across Introduction, Methods, Results, Discussion and Conclusions. Use transitions only when the logical relationship is supported. Never invent a mechanism, certainty or causal bridge to make prose flow.
 
 ## 4. Edit proportionately
 
 Preserve the scientist's vocabulary, disciplinary register, uncertainty and voice. Use Australian English for NESP unless instructed otherwise; follow the journal's language convention in journal mode.
 
-Flag inflated novelty, generic significance, unsupported certainty, repetitive summaries, empty transitions, decorative jargon, synonym changes to established terms and chat residue. Judge each in context. Do not treat word choice as proof of AI authorship, score a document for being human, promise detector evasion, or add fabricated personality.
+Flag inflated novelty, generic significance, unsupported certainty, repetitive summaries, empty transitions, decorative jargon, synonym changes to established terms and chat residue. Also actively break **structural AI patterns and repetition** during drafting and revision (see [editorial review](references/editorial-review.md)): metronomic 15–22 word sentence runs, uniform 3–5 sentence paragraph bricks, predictable abstract boilerplate (`"The outputs provide a basis for..."`, `"Such information helps..."`), chains of identical `We [verbed]` or `These [noun]` openers, tacked-on paragraph-final `"These X were A, not B"` disclaimers, repetitive `[statement]; [caveat]` semicolons, standalone `"Appendix X describes..."` closing sentences, cross-section repetition of identical caveats, and generic policy-template openers. Mix shorter direct sentences with longer multi-clause reasoning, use concrete domain subjects and verbs, and keep existing clear human phrasing intact. Judge each pattern in context. Do not sacrifice scientific precision, introduce errors, add fabricated personality, or promise specific AI-detector scores—fix the underlying predictability and uniformity instead.
 
 Keep values, units, scientific names, negative results, comparison direction, sampling units and scope intact. A shorter sentence that changes what the study establishes is a scientific change, not a proofreading fix. Put it in the decision register.
 
@@ -100,6 +101,7 @@ For a substantial revision provide:
 2. A clean reading view when useful. Prefer Word's No Markup view; if making a separate reading copy, retain the review master and explain that readability does not mean author acceptance. Never accept pre-existing human revisions to simplify processing.
 3. A short decision list: location, issue, proposed wording/question, reason/evidence, and accept/edit/reject/needs-input choices. Group repetitive mechanical fixes.
 4. A verification summary separating checked items, unresolved inputs, and native Word/EndNote checks still needed.
+5. An optional **author phrasing pass** (see [editorial review](references/editorial-review.md#author-phrasing-pass-human-in-the-loop)): flag a short list of the most model-generic verbs, transitions, or opening phrases—either as quick prompts in chat or highlighted/commented in the working DOCX—so the scientist can swap in their own natural wording directly.
 
 Review all rendered pages after layout edits. Refresh Word fields and pagination through native Word where available; run EndNote's Update Citations and Bibliography separately. Check comment/revision anchors structurally because PDF rendering may omit them. A PDF preview does not establish live citation functionality.
 
