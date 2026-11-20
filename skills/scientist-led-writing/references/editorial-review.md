@@ -43,7 +43,7 @@ A scientific caveat is useful when it changes how evidence should be interpreted
 
 **Decision rule and register routing:**
 - **Keep** the substance if **Q1 or Q2 is Yes**; use Q3–Q5 only to decide placement and cleaner phrasing.
-- **Wording change:** Moving or merging a duplicate caveat across sections, or breaking up caveat stacking (`although / while / only / may / potentially` piled into one sentence).
+- **Wording change:** Moving or merging a duplicate caveat across sections, breaking up caveat stacking (`although / while / only / may / potentially` piled into one sentence), or deleting purely defensive filler where **Q1 and Q2 are both No** (include in grouped edits).
 - **Scientific decision (log in the review register):** Deleting the *only* statement of a limitation, or reformulating a non-claim so an excluded inference (such as mapped non-detection ≠ true absence, or imagery resolution ≠ positional accuracy) is no longer explicitly stated.
 
 ### Author phrasing pass (human-in-the-loop)
@@ -54,9 +54,9 @@ After drafting or revising a document, optionally flag **up to ~10 high-leverage
 - **What NOT to flag:** Calibrated evidential verbs (*supports*, *indicates*, *demonstrates*) where they carry real evidential weight, established domain terms, species names, statistical metrics, units, citations, or Word/EndNote field ranges.
 - **Delivery format:**
   - **In chat (default):** A short list showing `[Section / excerpt] → phrase` asking how the scientist would naturally phrase it, without feeding overly polished AI synonyms.
-  - **In a working DOCX (when delivering a review draft):** Prefer **anchored Word comments** (`"Author phrasing spot: reword in your own voice"`). Never place comments, highlights, or edits inside another author's pending tracked revision or inside Word/EndNote field ranges. If highlights are explicitly requested instead of comments, use one reserved colour, record the colour and count in the review register, and list clearing them as a required check in the verification summary.
+  - **In a working DOCX (when delivering a review draft):** Prefer **anchored Word comments** (`"Author phrasing spot: reword in your own voice"`). Never place highlights or edits inside another author's pending tracked revision or inside Word/EndNote field ranges (anchor phrasing-pass comments adjacent to pending revisions rather than inside them). If highlights are explicitly requested instead of comments, use one reserved colour, record the colour and count in the review register, and list clearing them as a required check in the verification summary.
 
-These checks are diagnostics, not banned-word lists or rigid quotas. Avoid blanket passive-voice removal, rigid dash rules, artificial contractions, invented anecdotes and detector-evasion promises. Preserve notation, ranges, citations, species names and qualifications. Odd whitespace is not evidence of authorship.
+Avoid blanket passive-voice removal, rigid dash rules, artificial contractions, invented anecdotes and detector-evasion promises. Preserve notation, ranges, citations, species names and qualifications. Odd whitespace is not evidence of authorship.
 
 ## Scientific displays
 
