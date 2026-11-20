@@ -2,7 +2,7 @@
 
 ## Prose review
 
-Propose the smallest useful change. Assess precision and evidence rather than whether a phrase sounds machine-generated.
+Propose the smallest useful change. Assess precision and evidence first; use the structural and rhythm diagnostics below to remove mechanical uniformity without weakening scientific accuracy.
 
 | Pattern | Intervention | Preserve |
 | --- | --- | --- |
@@ -13,46 +13,50 @@ Propose the smallest useful change. Assess precision and evidence rather than wh
 | Decorative synonyms | Use one term for one construct | Real distinctions between constructs |
 | Unsupported causal bridge | Raise an author query | Uncertainty and alternatives |
 | Chat residue | Remove assistant asides, formatting debris and invented source markers | Appropriate reporting of AI use |
-| Paragraph-final `not X` disclaimers | State what the method/metric does cleanly once; integrate necessary limits via causal clauses (`Because...`) or consolidate in Discussion/Limitations | Substantive scope limits and uncertainty |
-| Metronomic sentence length & identical openers | Mix concise sentences with multi-clause reasoning; break chains of `We [verbed]` or `These [noun]` openers (especially in Methods) using varied clause structure | Clear chronological or analytical sequence |
-| Cross-section caveat repetition | Assign each caveat one primary home; remove Methods disclaimers from Results and cut recycled boilerplate across Abstract, Discussion and Conclusions | Essential standalone caveats in Abstract/Executive Summary |
+| Tacked-on paragraph-final `not X` disclaimers | State what the method/metric does cleanly once; integrate necessary limits via causal clauses (`Because...`) or consolidate in Discussion/Limitations | Required ecological/remote-sensing `"A, not B"` distinctions (`SKILL.md` §4) and substantive scope limits |
+| Metronomic sentence length & identical openers | Vary clause structure and length where a passage reads mechanically; break chains of `We [verbed]` or `These [noun]` openers without turning any replacement opener into a new tic | Clear chronological or analytical sequence; genuinely parallel sentences |
+| Cross-section caveat repetition | Assign each caveat one primary home; remove Methods disclaimers from Results and cut recycled boilerplate across body sections | Essential standalone caveats in Abstract/Executive Summary, Conclusions, and figure/table captions |
 | Balanced-semicolon symmetry & appendix sign-offs | Vary punctuation and sentence connection instead of repeating `[statement]; [contrast]`; fold `(Appendix X)` inline rather than ending paragraphs with `"Appendix X describes..."` | Necessary cross-references |
 | Generic textbook/policy openers | Open directly with the specific scientific, ecological or management gap | Genuine policy/regulatory context |
 
 ### Natural rhythm and anti-repetition check
 
-Before returning a drafted or revised section, check the prose for the predictability and mechanical uniformity that make rigorous scientific writing read as machine-generated:
+Treat these checks as **diagnostics, not rigid quotas or banned-word lists**:
 
 1. **Preserve working human prose (minimum effective edit):** Never smooth an entire human draft into uniform house style. Leave clear, slightly uneven sentences in the scientist's own voice alone; fix actual ambiguity, repetition, errors, or structural problems.
-2. **Sentence- and paragraph-length variation (burstiness):** Avoid runs of 15–22 word declarative sentences and uniform 3–5 sentence paragraph bricks. **Never leave three consecutive sentences within 5 words of each other in length.** Mix short, direct sentences (roughly 6–12 words) with longer multi-clause analytical sentences (25–45 words) where the reasoning warrants it, and let paragraph lengths vary with the complexity of the point.
-3. **Concrete subjects and verbs over abstract boilerplate:** Replace high-predictability framing (*"The outputs provide a consistent basis for..."*, *"Such information helps governments..."*, *"These records provide an opportunity to..."*) with concrete domain actors, places, taxa, mechanisms, and numbers.
-4. **Opener variety:** Scan paragraph and sentence starts—especially in Methods—for repeated `We [verbed]`, `The [noun]`, or wrap-up `These [noun]` constructions. Lead some sentences with the analytical unit, condition, or purpose (`For each region...`, `Because thresholds were derived locally...`).
-5. **One home per caveat & no forced endings:** Keep each limitation or scope boundary in its primary section rather than appending defensive `"not X"` sentences across multiple paragraphs. Do not force a concluding takeaway, caveat, or standalone `"Appendix X describes..."` pointer onto every paragraph; end on the last concrete step, parameter, or result when the job is done.
-6. **Strip RLHF / instruction-tuning voice:** Remove unprompted balanced tradeoffs, polite hedging, over-structured enumeration when a single direct statement suffices, and artificially smooth local transitions.
+2. **Sentence- and paragraph-length variation (diagnostic):** If a paragraph reads as metronomic (long runs of similar-length declarative sentences or uniform paragraph bricks), vary clause structure and length naturally. Runs of similar-length sentences are fine where the content is genuinely parallel—do not pad or chop sentences just to satisfy a numeric threshold.
+3. **Concrete subjects and verbs over abstract boilerplate:** Replace predictable abstract framing (*"The outputs provide a consistent basis for..."*, *"Such information helps governments..."*, *"These records provide an opportunity to..."*) with concrete domain actors, places, taxa, mechanisms, and numbers.
+4. **Opener variety:** Scan paragraph and sentence starts—especially in Methods—for repeated `We [verbed]`, `The [noun]`, or wrap-up `These [noun]` constructions, and vary clause openings naturally without overusing any single replacement pattern.
+5. **One home per caveat & no forced endings:** Keep each limitation in its primary section (while permitting standalone scope in Abstract/Executive Summary, Conclusions, and captions). Do not force a concluding takeaway, caveat, or standalone `"Appendix X describes..."` pointer onto every paragraph; end on the last concrete step, parameter, or result when the job is done.
+6. **Cut unprompted balance and polite padding:** Remove unprompted "on the one hand / on the other hand" tradeoffs, social/polite hedging (*"it is worth noting that"*, *"it should be emphasised that"*), over-structured enumeration when a single direct statement works, and artificially smooth filler transitions. Preserve genuine evidential uncertainty (e.g., *may*, *likely*, sample limits, confidence intervals).
+7. **Post-rhythm integrity check:** After splitting, merging, or reordering sentences, re-verify every value, unit, comparison direction, citation, and scope limit against the pre-edit text to ensure no subtle scientific error was introduced.
 
 ### Scientific caveat vs. defensive wording test
 
-A scientific caveat is useful when it changes how evidence should be interpreted; defensive prose mainly anticipates imagined reviewer criticism. Prefer `claim → evidence → concise boundary` over `disclaimer → justification → weakened claim → another disclaimer`. Before keeping any qualifier or non-claim sentence (*"This does not establish..."*, *"should not be interpreted as..."*, *"We emphasise that..."*), check five questions:
+A scientific caveat is useful when it changes how evidence should be interpreted; defensive prose mainly anticipates imagined reviewer criticism. Prefer `claim → evidence → concise boundary` over `disclaimer → justification → weakened claim → another disclaimer`. Evaluate suspicious qualifier or non-claim sentences (*"This does not establish..."*, *"should not be interpreted as..."*, *"We emphasise that..."*) with five questions:
 
 1. **Validity:** Would removing it make the interpretation materially misleading?
 2. **Evidence:** Does it report a supported condition, uncertainty, or limitation?
 3. **Reviewer simulation:** Is its main job to prebut an imagined critic?
-4. **Positive reformulation:** Can a negative boundary (*"supports X within scope, but does not establish Y"*) be stated cleanly and positively (*"Under the evaluated setting, X"*)?
+4. **Positive reformulation:** Can a negative boundary be stated positively without losing a required `"A, not B"` distinction?
 5. **Duplication:** Has this same caveat already been stated in another section?
 
-Keep at most one material caveat per claim, break up caveat stacking (`although / while / only / may / potentially` piled into one sentence), and convert legalistic lists of non-claims into short positive scope statements.
+**Decision rule and register routing:**
+- **Keep** the substance if **Q1 or Q2 is Yes**; use Q3–Q5 only to decide placement and cleaner phrasing.
+- **Wording change:** Moving or merging a duplicate caveat across sections, or breaking up caveat stacking (`although / while / only / may / potentially` piled into one sentence).
+- **Scientific decision (log in the review register):** Deleting the *only* statement of a limitation, or reformulating a non-claim so an excluded inference (such as mapped non-detection ≠ true absence, or imagery resolution ≠ positional accuracy) is no longer explicitly stated.
 
 ### Author phrasing pass (human-in-the-loop)
 
-Even well-structured LLM prose retains high-predictability phrasing unless the scientist puts their own stamp on key sentences. After drafting or revising a section, offer or include a brief **Author phrasing pass** that points to **5–10 high-leverage spots per major section** for the scientist to reword in their own phrasing:
+After drafting or revising a document, optionally flag **up to ~10 high-leverage spots across the whole document** (or none if nothing qualifies) for the scientist to reword in their own natural phrasing:
 
-- **What to flag:** Generic framing verbs (*"supports"*, *"provides a basis for"*, *"demonstrates"*, *"indicates"*), predictable topic openers, transitional phrases, and summary sentences where the scientist's own colloquial technical phrasing will sound noticeably more natural.
-- **What NOT to flag:** Established domain terms, species names, statistical metrics, units, citations, or field ranges.
+- **What to flag:** Generic helper/framing phrases (*"provides a consistent basis for"*, *"offers a starting point"*, *"plays a key role in"*), predictable topic openers, and boilerplate transitions where the scientist's own phrasing will sound noticeably more natural.
+- **What NOT to flag:** Calibrated evidential verbs (*supports*, *indicates*, *demonstrates*) where they carry real evidential weight, established domain terms, species names, statistical metrics, units, citations, or Word/EndNote field ranges.
 - **Delivery format:**
-  - **In chat (default):** A compact list showing `[Section / excerpt] → highlighted phrase` with a brief prompt asking how the scientist would naturally phrase it (avoid supplying overly polished AI synonyms that defeat the purpose).
-  - **In a working DOCX (when requested or delivering a review draft):** Apply a clean highlight (e.g., yellow) or an anchored Word comment (`"Author phrasing spot: reword in your own voice"`) outside any Word/EndNote field ranges so the scientist can scan and edit directly in Word, then clear highlights before final submission.
+  - **In chat (default):** A short list showing `[Section / excerpt] → phrase` asking how the scientist would naturally phrase it, without feeding overly polished AI synonyms.
+  - **In a working DOCX (when delivering a review draft):** Prefer **anchored Word comments** (`"Author phrasing spot: reword in your own voice"`). Never place comments, highlights, or edits inside another author's pending tracked revision or inside Word/EndNote field ranges. If highlights are explicitly requested instead of comments, use one reserved colour, record the colour and count in the review register, and list clearing them as a required check in the verification summary.
 
-Avoid banned-word replacement, blanket passive-voice removal, rigid dash rules, artificial contractions, invented anecdotes and detector-evasion promises. Preserve notation, ranges, citations, species names and qualifications. Odd whitespace is not evidence of authorship.
+These checks are diagnostics, not banned-word lists or rigid quotas. Avoid blanket passive-voice removal, rigid dash rules, artificial contractions, invented anecdotes and detector-evasion promises. Preserve notation, ranges, citations, species names and qualifications. Odd whitespace is not evidence of authorship.
 
 ## Scientific displays
 

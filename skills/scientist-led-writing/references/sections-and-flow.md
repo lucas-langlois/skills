@@ -27,7 +27,7 @@ Give each paragraph a short purpose label: context, gap, operation, result, inte
 
 Check that each paragraph contributes something distinct, each sentence supports its purpose and the next paragraph follows for an identifiable reason. Merge duplication, split unrelated jobs and move misplaced detail. Do not impose identical sentence counts, uniform 3–5 sentence paragraph blocks, or a mandatory concluding summary/disclaimer sentence on every paragraph.
 
-During the reverse outline, also check for **cross-section caveat repetition**: if the same methodological limitation, scope boundary, or disclaimer appears in Introduction, Methods, Results, Discussion and Conclusions, assign it one primary home (typically Discussion/Limitations or a single Methods paragraph, plus a brief mention in the Abstract/Executive Summary if essential) and cut the redundant restatements.
+During the reverse outline, also check for **cross-section caveat repetition**: if the same methodological limitation or scope boundary appears across multiple body sections, assign it one primary home (typically Discussion/Limitations or a single Methods paragraph) and cut redundant restatements—while preserving essential standalone scope in the Abstract/Executive Summary, Conclusions, and figure/table captions. Deleting the only statement of a limitation is a scientific decision for the review register, not a wording edit.
 
 Move from information already introduced to the next idea. Prefer specific relationships to filler transitions. Repeating a technical term can improve precision. When a logical link is missing, ask the scientist for it. Do not infer causality from chronology or correlation, or replace a strong unsupported claim with a weaker unsupported claim and call it verified.
 

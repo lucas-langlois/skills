@@ -24,7 +24,7 @@ Do the useful authorised work immediately. Ask only the few questions that mater
 2. Read [section and paragraph guidance](references/sections-and-flow.md) for drafting or structural revision.
 3. Read [Word and EndNote handling](references/word-endnote.md) before editing a DOCX or its citations. Use the host's document and PDF skills when available.
 4. Read [editorial review](references/editorial-review.md) for prose changes, figure checks and the review package.
-5. Read [the author voice profile](references/author-voice.md) before drafting or revising prose for Lucas Langlois so cadence, sentence variation, and structure match his published writing.
+5. Read [the author voice profile](references/author-voice.md) only when Lucas Langlois is the confirmed lead author of the text being edited (otherwise use a supplied author sample or apply no voice profile).
 6. Consult [sources and provenance](references/sources.md) for upstream ideas and primary documentation. No upstream skill, paid service, network installation, or citation converter is a required runtime dependency.
 
 Use the exact template for layout and identity; use the author and evidence for content. Record conflicting template instructions instead of silently normalising them.
@@ -61,13 +61,13 @@ Create a reverse outline: section purpose, each paragraph's job, evidence used, 
 
 For a new document, create a section plan and populate supported material. Hold unsupported scientific assertions as clearly identified author queries. Use an internal working draft with placeholders when useful; do not describe it as ready for submission.
 
-Each paragraph should have a clear job, but do not force every paragraph into an identical 3–5 sentence `point → detail → wrap-up/disclaimer` template. Vary paragraph length, sentence length and clause structure naturally, and let a paragraph end on a concrete detail or result without a summary or defensive sign-off. State each methodological caveat once in the section where it belongs rather than repeating it across Introduction, Methods, Results, Discussion and Conclusions. Use transitions only when the logical relationship is supported. Never invent a mechanism, certainty or causal bridge to make prose flow.
+Each paragraph should have a clear job, without forcing uniform paragraph lengths or mandatory wrap-up/disclaimer endings. Consolidate duplicate methodological caveats in their primary section (while keeping standalone scope where needed in the Abstract/Executive Summary, Conclusions, and captions); deleting the only statement of a limit is a scientific decision for the review register. Use transitions only when the logical relationship is supported. Never invent a mechanism, certainty or causal bridge to make prose flow.
 
 ## 4. Edit proportionately
 
 Preserve the scientist's vocabulary, disciplinary register, uncertainty and voice. Use Australian English for NESP unless instructed otherwise; follow the journal's language convention in journal mode.
 
-Flag inflated novelty, generic significance, unsupported certainty, repetitive summaries, empty transitions, decorative jargon, synonym changes to established terms and chat residue. Also actively break **structural AI patterns and repetition** during drafting and revision (see [editorial review](references/editorial-review.md)): metronomic 15–22 word sentence runs, uniform 3–5 sentence paragraph bricks, predictable abstract boilerplate (`"The outputs provide a basis for..."`, `"Such information helps..."`), chains of identical `We [verbed]` or `These [noun]` openers, tacked-on paragraph-final `"These X were A, not B"` disclaimers, repetitive `[statement]; [caveat]` semicolons, standalone `"Appendix X describes..."` closing sentences, cross-section repetition of identical caveats, and generic policy-template openers. Mix shorter direct sentences with longer multi-clause reasoning, use concrete domain subjects and verbs, and keep existing clear human phrasing intact. Judge each pattern in context. Do not sacrifice scientific precision, introduce errors, add fabricated personality, or promise specific AI-detector scores—fix the underlying predictability and uniformity instead.
+Flag inflated novelty, generic significance, unsupported certainty, repetitive summaries, empty transitions, decorative jargon, synonym changes to established terms and chat residue. Use the structural uniformity, defensive-writing, and post-rhythm accuracy diagnostics in [editorial review](references/editorial-review.md) to keep prose natural and concrete without sacrificing scientific precision. Judge each pattern in context. Do not introduce errors, add fabricated personality, or promise specific AI-detector scores.
 
 Keep values, units, scientific names, negative results, comparison direction, sampling units and scope intact. A shorter sentence that changes what the study establishes is a scientific change, not a proofreading fix. Put it in the decision register.
 
@@ -101,7 +101,7 @@ For a substantial revision provide:
 2. A clean reading view when useful. Prefer Word's No Markup view; if making a separate reading copy, retain the review master and explain that readability does not mean author acceptance. Never accept pre-existing human revisions to simplify processing.
 3. A short decision list: location, issue, proposed wording/question, reason/evidence, and accept/edit/reject/needs-input choices. Group repetitive mechanical fixes.
 4. A verification summary separating checked items, unresolved inputs, and native Word/EndNote checks still needed.
-5. An optional **author phrasing pass** (see [editorial review](references/editorial-review.md#author-phrasing-pass-human-in-the-loop)): flag a short list of the most model-generic verbs, transitions, or opening phrases—either as quick prompts in chat or highlighted/commented in the working DOCX—so the scientist can swap in their own natural wording directly.
+5. An optional **author phrasing pass** (see [editorial review](references/editorial-review.md#author-phrasing-pass-human-in-the-loop)): flag up to ~10 high-leverage generic phrasing spots across the document (none if nothing qualifies)—in chat or via anchored DOCX comments—so the scientist can swap in their own natural wording directly.
 
 Review all rendered pages after layout edits. Refresh Word fields and pagination through native Word where available; run EndNote's Update Citations and Bibliography separately. Check comment/revision anchors structurally because PDF rendering may omit them. A PDF preview does not establish live citation functionality.
 
