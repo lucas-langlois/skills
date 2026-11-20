@@ -1,6 +1,8 @@
 # Author Voice Reference (Lucas A. Langlois)
 
-Primary voice reference: Langlois, L. A., Collier, C. J., & McKenzie, L. J. (2023), *Subtidal seagrass detector: development of a deep learning seagrass detection and classification model for seagrass presence and density in diverse habitats from underwater photoquadrats*, *Frontiers in Marine Science*, 10:1197695 (https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2023.1197695/full).
+Primary voice reference (journal register): Langlois, L. A., Collier, C. J., & McKenzie, L. J. (2023), *Subtidal seagrass detector: development of a deep learning seagrass detection and classification model for seagrass presence and density in diverse habitats from underwater photoquadrats*, *Frontiers in Marine Science*, 10:1197695 (https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2023.1197695/full).
+
+Secondary voice reference (technical report / Executive Summary register): Collier, C., Langlois, L., Brien, H., Wilson, N., et al. (2026), *Thermal Stress Risk model for coastal intertidal habitat* (TropWATER / GBRMPA final report).
 
 ## Scope and guardrails
 
@@ -33,3 +35,12 @@ Read these for overall rhythm, clause linking, and directness—**never borrow t
   > Of the false negative images, 16 had a percent cover lower than 10% and in nine of these percent cover was lower than 5%. In addition, 14 of the false negative images had a complex substrate with seven having more than 15% algae cover. This was further confirmed by running the model on the remaining seagrass photos not included in the training, validation and test sets.
 - **Discussion (concrete limitation with specific example, plain operational takeaway):**
   > The choice of category boundaries was crucial in the model performance. Most of the classification errors happened around these boundaries and resulted in an image being placed into the adjacent category, rather than for example two categories away (i.e. a high being classed as low or vice versa). This needs to be considered when applying the model. For instance, the medium seagrass cover category was defined as ≥10 <30% during the labelling process, however the percent cover range of the images predicted in that class ranged from 7 to 35%.
+
+## Technical report / Executive Summary excerpts (Collier, Langlois et al., 2026)
+
+Use these to match Lucas's technical-report register when writing Executive Summaries or management-facing findings for government partners (GBRMPA, DCCEEW, NESP):
+
+- **Executive Summary — model performance & honest trade-offs:**
+  > The two-stage hybrid model showed strong performance on the test dataset (n = 16,835), classifying daily maximum temperatures into No exceedance, Medium and High exceedance categories, with moderate agreement beyond chance (Kappa = 0.52). The model correctly identified approximately 60% of High-temperature events, prioritising detection of rare but ecologically important severe heat events, although this resulted in some false alarms. Performance for Medium exceedance days was moderate, reflecting a deliberate tuning strategy that favoured sensitivity to High exceedance events where missed detections pose the greatest ecological risk. Many of the misclassifications resulted in High being classed as Medium and vice versa. There were also days when the timing of predicted Medium or High exceedance did not align exactly with in-situ observations, even though they occurred close together in time. This suggests that the model performed better at identifying periods of elevated temperatures rather than pinpointing exact exceedance on any specific day.
+- **Executive Summary — practical management comparison:**
+  > Across sites, both approaches successfully identified major thermal stress events and reproduced broad regional patterns in exposure. Stress typically peaked during January–February, although timing and severity varied among years and regions, with 2022–23 showing earlier and more prolonged severe stress than subsequent summers. The rolling 28-day method is likely to be the most practical option for routine management reporting due to its stability and ease of interpretation, while the decay score may be useful where rapid identification of short, intense heat events is a priority.
