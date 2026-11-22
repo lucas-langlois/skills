@@ -1,0 +1,470 @@
+{
+ "template": "L:\\RES_J9515\\Tiwi_Subtidal_Drone_2026\\Drone\\Flight Logs\\drone_seagrass_survey_flight_log.docx",
+ "out": "L:\\RES_J9515\\Tiwi_Subtidal_Drone_2026\\Drone\\Flight Logs\\drone_seagrass_survey_flight_log_filled_Oct2026_skilltest.docx",
+ "source_note": "Transcribed from nine photos of the field sheets (PXL_20261030_030836348.jpg to PXL_20261030_030946753.jpg).",
+ "days": [
+  {
+   "details": {
+    "date": "27/10/2026",
+    "site": "Tiwi Island 26 / Milikapiti",
+    "pilot": "Alex Navarro",
+    "crew": "Tiwi rangers",
+    "weather": "Cloudy, low wind",
+    "tide": "10:15"
+   },
+   "ortho": [
+    [
+     "R4",
+     "Mavic 3 / Tiwi",
+     "AN",
+     "10:20",
+     "100",
+     "10:50",
+     "20",
+     "37 m",
+     ""
+    ],
+    [
+     "TB3",
+     "Mavic 3 / Tiwi",
+     "AN",
+     "10:55",
+     "70",
+     "11:10",
+     "40",
+     "37 m",
+     ""
+    ]
+   ],
+   "spot": [
+    [
+     "R1",
+     "Mavic 3 Rooster",
+     "AN + Rangers",
+     "09:35",
+     "100",
+     "10:00",
+     "25",
+     "23-35",
+     "",
+     "",
+     ""
+    ],
+    [
+     "R2",
+     "Mavic 3 Rooster",
+     "AN + Rangers",
+     "10:05",
+     "100",
+     "10:30",
+     "25",
+     "36-49",
+     "44",
+     "Water",
+     ""
+    ],
+    [
+     "R3",
+     "Mavic 3 Rooster",
+     "AN + Rangers",
+     "10:35",
+     "100",
+     "10:59",
+     "25",
+     "50-5",
+     "",
+     "",
+     ""
+    ],
+    [
+     "R5",
+     "Mavic 3 Rooster",
+     "AN + Rangers",
+     "11:02",
+     "100",
+     {
+      "v": "11:14",
+      "red": true
+     },
+     "70",
+     "6-22",
+     "",
+     "",
+     "Redid 44"
+    ]
+   ]
+  },
+  {
+   "details": {
+    "date": "28/10/2026",
+    "site": "Tiwi / Pretty Flowers",
+    "pilot": "Alex Navarro",
+    "crew": "Tiwi Rangers",
+    "weather": "Overcast / no wind",
+    "tide": "10:40"
+   },
+   "ortho": [
+    [
+     "Tiwi B3",
+     "Mavic 3T (Tiwi)",
+     "AN",
+     "10:02",
+     "100",
+     "10:32",
+     "20",
+     "37 m",
+     ""
+    ],
+    [
+     "Tiwi B1",
+     "Mavic 3T (Tiwi)",
+     "AN",
+     "10:39",
+     "100",
+     "10:50",
+     "60",
+     "37 m",
+     ""
+    ]
+   ],
+   "spot": [
+    [
+     "R1",
+     "Mavic 3 Rooster",
+     "AN + Tiwi Rangers",
+     "09:22",
+     "100",
+     "09:48",
+     "25",
+     "6-18",
+     "",
+     "",
+     ""
+    ],
+    [
+     "R2",
+     "Mavic 3 Rooster",
+     "AN + Tiwi Rangers",
+     "09:51",
+     "100",
+     "10:15",
+     "22",
+     "19-44",
+     "",
+     "",
+     ""
+    ],
+    [
+     "R3",
+     "Mavic 3 Rooster",
+     "AN + Tiwi Rangers",
+     "10:18",
+     "100",
+     "10:45",
+     "20",
+     "45-5 + extras along water edge",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "details": {
+    "date": [
+     [
+      "28/10/2026",
+      false
+     ]
+    ],
+    "site": "Tiwi / Kerleske Island",
+    "pilot": "Alex Navarro",
+    "crew": "Tiwi Rangers",
+    "weather": "Overcast / low wind",
+    "tide": "10:40"
+   },
+   "ortho": [
+    [
+     "R5",
+     "Mavic 3 Rooster",
+     "AN",
+     {
+      "v": "11:14",
+      "red": true
+     },
+     "100",
+     {
+      "v": "11:38",
+      "red": true
+     },
+     "20",
+     {
+      "v": "24 m",
+      "red": true
+     },
+     ""
+    ],
+    [
+     "R4",
+     "Mavic 3 Rooster",
+     "AN",
+     "11:40",
+     "100",
+     "12:02",
+     "20",
+     "24 m",
+     ""
+    ],
+    [
+     "TB2",
+     "Mavic 3 Rooster",
+     "AN",
+     "12:06",
+     "100",
+     "12:31",
+     "20",
+     "24 m",
+     "+ spot checks"
+    ]
+   ],
+   "spot": null,
+   "notes": "No spot-check sheet was completed for Kerleske Island. The TB2 ortho flight notes \"+ spot checks\"."
+  },
+  {
+   "details": {
+    "date": "29/10/2026",
+    "site": "Tiwi / Family Point",
+    "pilot": "Alex Navarro",
+    "crew": "Tiwi Rangers",
+    "weather": "Overcast / low wind",
+    "tide": "11:30"
+   },
+   "ortho": [
+    [
+     "TB1",
+     "Mavic 3T Tiwi",
+     "AN",
+     "11:05",
+     "100",
+     "11:30",
+     "25",
+     "37",
+     ""
+    ],
+    [
+     "TB2",
+     "Mavic 3T Tiwi",
+     "AN",
+     "11:31",
+     "100",
+     "11:45",
+     "50",
+     "37",
+     ""
+    ],
+    [
+     "R02",
+     "Mavic 3T Tiwi",
+     "AN",
+     "12:15",
+     "100",
+     "12:40",
+     "25",
+     "37",
+     ""
+    ]
+   ],
+   "spot": [
+    [
+     "R5",
+     "Mavic 3 Rooster",
+     "AN + Tiwi Rangers",
+     "10:30",
+     "100",
+     "10:55",
+     "25",
+     "1-15",
+     "",
+     "",
+     ""
+    ],
+    [
+     "R4",
+     "Mavic 3 Rooster",
+     "AN + Tiwi Rangers",
+     "10:56",
+     "100",
+     "11:20",
+     {
+      "v": "25",
+      "red": true
+     },
+     [
+      [
+       "15-20, 40-",
+       false
+      ],
+      [
+       "57",
+       true
+      ]
+     ],
+     "",
+     "",
+     "Aircraft disconnected. Moved to points closer to home"
+    ],
+    [
+     "R3",
+     "Mavic 3 Rooster",
+     "AN + Tiwi Rangers",
+     "11:21",
+     "100",
+     {
+      "v": "11:30",
+      "red": true
+     },
+     {
+      "v": "70",
+      "red": true
+     },
+     {
+      "v": "79-89",
+      "red": true
+     },
+     "56-78",
+     "Water",
+     "Aircraft disconnected and landed. Retrieved from shore"
+    ],
+    [
+     "R1",
+     "Mavic 3 Rooster",
+     {
+      "v": "AN + Tiwi Rangers",
+      "red": true
+     },
+     "12:24",
+     "100",
+     "12:48",
+     "25",
+     "90-100, 21-39",
+     "",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "details": {
+    "date": "30/10/2026",
+    "site": [
+     [
+      "Tiwi / ",
+      false
+     ],
+     [
+      "Timasambu",
+      true
+     ]
+    ],
+    "pilot": "Alex Navarro",
+    "crew": "Kirsty W",
+    "weather": "Overcast / low wind",
+    "tide": "12:13"
+   },
+   "ortho": [
+    [
+     "R01",
+     "Mavic 3E Rooster",
+     "AN",
+     "11:05",
+     "100",
+     "11:31",
+     "25",
+     "37 m",
+     ""
+    ],
+    [
+     "R02",
+     "Mavic 3E Rooster",
+     "AN",
+     "11:33",
+     "100",
+     "11:59",
+     "25",
+     "37 m",
+     ""
+    ]
+   ],
+   "spot": [
+    [
+     "TB2",
+     "Mavic 3T Tiwi",
+     {
+      "v": "KW",
+      "red": true
+     },
+     {
+      "v": "10:23",
+      "red": true
+     },
+     "100",
+     "10:53",
+     "20",
+     "10-25",
+     "",
+     "",
+     ""
+    ],
+    [
+     "TB1",
+     "Mavic 3T Tiwi",
+     "KW",
+     "10:56",
+     "100",
+     "11:21",
+     "25",
+     "26-49",
+     "",
+     "",
+     ""
+    ],
+    [
+     "TB3",
+     "Mavic 3T Tiwi",
+     "KW",
+     "11:24",
+     "100",
+     "11:46",
+     "25",
+     "50-09",
+     "",
+     "",
+     ""
+    ]
+   ]
+  }
+ ],
+ "appendix_notes": [
+  "The four spot-check sheets carry no date or site. They are matched to days by photo order (each spot-check sheet was photographed straight after its orthomosaic sheet): 27 Oct Milikapiti, 28 Oct Pretty Flowers, 29 Oct Family Point, 30 Oct Timasambu.",
+  "Ditto marks (\") are expanded to the value in the row above.",
+  "Where an entry is crossed out, the replacement is recorded: 27 Oct R4 start 9:30 -> 10:20; 27 Oct TB3 start battery 100 -> 70; 29 Oct spot-check R3 and R1 start times; 30 Oct spot-check TB2 pilot AN -> KW (see below).",
+  "27 Oct ortho: \"Rooster\" is struck out and \"Tiwi\" written in, so the model is recorded as Mavic 3 / Tiwi.",
+  "28 Oct Kerleske Island: the sheet is dated 28/10/2020, read as 2026. Two sites were flown on 28 Oct (Mavic 3T Tiwi at Pretty Flowers ortho; Mavic 3 Rooster for Pretty Flowers spot checks and Kerleske ortho).",
+  "Kerleske Island has no spot-check sheet, so that section is left out of its page.",
+  "Battery IDs and drone names are recorded as written, including mixed R / TB prefixes on the same aircraft.",
+  "Spot-check numbers wrap round, so ranges like 50-5 (27 Oct) and 50-09 (30 Oct) are recorded as written: they run from 50 to the end of the list and on from 1.",
+  "28 Oct Kerleske R4 start 11:40 has its hour digits retraced; it reads 11:40.",
+  "29 Oct ortho altitude is written \"37\" with no unit."
+ ],
+ "red_items": [
+  "27 Oct spot-check R5: end time 11:14. The minutes digit is overwritten; could be 11:24.",
+  "28 Oct Kerleske R5: start 11:14 and end 11:38. Both are overwritten (start could read 11:44, end could read 12:38). 11:14-11:38 fits the next flight starting 11:40.",
+  "28 Oct Kerleske altitude: read as 24 m (first digit could be a 7).",
+  "29 Oct spot-check R4: stop battery 25 could be 23; the 7 in \"40-57\" is written over a 5.",
+  "29 Oct spot-check R3: end time 11:30 (minutes overwritten), stop battery 70 (overwritten), completed numbers 79-89 (first digit overwritten; could be 71). 79-89 fits the unsuccessful range 56-78.",
+  "29 Oct spot-check R1: pilot cell has a crossed-out letter then a ditto mark; recorded as AN + Tiwi Rangers.",
+  "30 Oct site name: written \"Timasambu\"; could be a different spelling of the place name.",
+  "30 Oct spot-check pilot: \"AN\" is scribbled over with \"KW\" written beneath; recorded as KW (could mean AN + KW). TB1 and TB3 are ditto.",
+  "30 Oct spot-check TB2: start time 10:23. The minutes are overwritten; could be 10:30 or 10:33."
+ ]
+}

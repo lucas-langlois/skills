@@ -10,6 +10,7 @@ Each skill lives in its own folder under `skills/`, with a `SKILL.md` entry poin
 | --- | --- |
 | [manuscript-citation-audit](skills/manuscript-citation-audit/SKILL.md) | Find original publications and check whether each cited manuscript claim is supported by the relevant full text. |
 | [scientist-led-writing](skills/scientist-led-writing/SKILL.md) | Review, draft and edit scientific reports or journal manuscripts while preserving author decisions, evidence, Word review history and EndNote fields. Works with any supplied template. |
+| [drone-flight-log-transcribe](skills/drone-flight-log-transcribe/SKILL.md) | Transcribe photos of handwritten drone seagrass survey flight-log sheets into a filled Word log from the template, with uncertain readings flagged in red for checking. |
 
 ## Install in Codex
 
