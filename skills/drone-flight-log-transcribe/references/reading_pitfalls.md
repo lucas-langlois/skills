@@ -1,4 +1,6 @@
-# Reading pitfalls (from the Oct 2026 Tiwi job)
+# Reading pitfalls
+
+Collected from past transcriptions (first: Tiwi, Oct 2026). They apply to any site; add new ones as they turn up.
 
 These were misreadings in a first-pass transcription, caught by zooming in or by a second reviewer.
 
@@ -25,4 +27,4 @@ These were misreadings in a first-pass transcription, caught by zooming in or by
 ## Structure
 - Spot-check sheets carry no date or site. Pair each with the ortho sheet photographed just before it.
 - One day can have two ortho sheets (two sites) but only one spot sheet. The spot sheet belongs to the site shot just before it. A note like "+ spot checks" on an ortho flight does not mean a separate sheet exists.
-- Different aircraft (Mavic 3T "Tiwi", Mavic 3/3E "Rooster") can fly ortho and spot checks at the same time. Battery prefixes (R*, TB*) don't always match the aircraft name.
+- Different aircraft (e.g. a Mavic 3T and a Mavic 3E, each with a nickname) can fly ortho and spot checks at the same time. Battery prefixes (R*, TB*) don't always match the aircraft name.

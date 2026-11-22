@@ -4,7 +4,7 @@ Usage:  python build_log.py data.json
 
 data.json layout (see ../references/data_example.json):
 {
-  "template": "path/to/drone_seagrass_survey_flight_log.docx",
+  "template": "path/to/drone_seagrass_survey_flight_log.docx",   # optional; bundled copy used if absent
   "out": "path/to/output.docx",
   "source_note": "Transcribed from nine photos PXL_...jpg",
   "days": [
@@ -29,6 +29,7 @@ A cell value can be:
 import copy
 import json
 import sys
+from pathlib import Path
 
 import docx
 from docx.oxml import OxmlElement
@@ -130,7 +131,12 @@ def find_layout(children):
 
 def main(path):
     data = json.load(open(path, encoding="utf-8"))
-    doc = docx.Document(data["template"])
+    template = data.get("template")
+    if not template or not Path(template).exists():
+        # fall back to the blank template bundled with the skill
+        template = str(Path(__file__).resolve().parent.parent / "assets" / "drone_seagrass_survey_flight_log.docx")
+        print("using bundled template", template)
+    doc = docx.Document(template)
     body = doc.element.body
     sectPr = body.find(qn("w:sectPr"))
     template = [c for c in body.iterchildren() if c is not sectPr]

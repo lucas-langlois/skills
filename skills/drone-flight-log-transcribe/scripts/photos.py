@@ -1,7 +1,7 @@
 """Photo helpers for reading handwritten flight-log sheets.
 
   python photos.py preview <photo_dir> <out_dir>
-      Writes an EXIF-rotated 1800px copy of every .jpg, named by photo stem, sorted by name
+      Writes an EXIF-rotated 1800px copy of every photo (.jpg/.jpeg/.png), named by photo stem, sorted by name
       (Pixel names sort by capture time, so the order matches the order the sheets were shot).
 
   python photos.py crop <photo_dir> <out_dir>  < boxes.txt
@@ -16,9 +16,16 @@ import sys
 from PIL import Image, ImageOps
 
 
+EXT = (".jpg", ".jpeg", ".png")
+
+
+def photo_files(src):
+    return sorted(f for f in glob.glob(os.path.join(src, "*")) if f.lower().endswith(EXT))
+
+
 def preview(src, out):
     os.makedirs(out, exist_ok=True)
-    for f in sorted(glob.glob(os.path.join(src, "*.jpg"))):
+    for f in photo_files(src):
         im = ImageOps.exif_transpose(Image.open(f))
         im.thumbnail((1800, 1800))
         name = os.path.splitext(os.path.basename(f))[0]
@@ -30,7 +37,8 @@ def crop(src, out):
     os.makedirs(out, exist_ok=True)
     for line in sys.stdin.read().strip().splitlines():
         name, stem, *box = line.split()
-        im = ImageOps.exif_transpose(Image.open(os.path.join(src, stem + ".jpg")))
+        path = next(f for f in photo_files(src) if os.path.splitext(os.path.basename(f))[0] == stem)
+        im = ImageOps.exif_transpose(Image.open(path))
         k = im.width / 1800
         c = im.crop(tuple(int(float(v) * k) for v in box))
         c.thumbnail((1600, 1600))
